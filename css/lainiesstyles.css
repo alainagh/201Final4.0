@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cdcdcd;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-family: Oswald;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+  text-align: center;
+  line-height: 150%;
+}
+
+li {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
